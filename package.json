@@ -1,0 +1,23 @@
+{
+  "name": "apie",
+  "version": "1.0.0",
+  "description": "Android Adaptive Icon Extractor",
+  "main": "src/index.ts",
+  "bin": {
+    "apie": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5",
+    "unzipit": "^1.4.3"
+  },
+  "license": "MIT"
+}
