@@ -1,0 +1,20 @@
+local-dev/
+node_modules/
+
+# Generated icon outputs/reports
+output/
+raster-report*.json
+
+# On-device build/cache artifacts
+on-device/build/
+on-device/.build/
+on-device/.cache/
+on-device/.vscode-java/
+on-device/java/.vscode/
+on-device/java/.settings/
+on-device/java/*.code-workspace
+
+# OS noise
+.DS_Store
+
+on-device/java/bin/

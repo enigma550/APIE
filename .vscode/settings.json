@@ -1,0 +1,7 @@
+{
+  "java.project.sourcePaths": [
+    "on-device/java/src",
+    "on-device/java/dev-stubs"
+  ],
+  "java.project.outputPath": "on-device/.vscode-java"
+}

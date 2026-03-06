@@ -1,0 +1,32 @@
+{
+  "name": "apie",
+  "version": "1.0.0",
+  "description": "Android Adaptive Icon Extractor",
+  "main": "src/index.ts",
+  "bin": {
+    "apie": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test",
+    "batch:device": "bun run src/adapters/cli/batchDeviceSvg.ts",
+    "build:dex": "bun run on-device/build.ts",
+    "build:dex:verify": "bun run on-device/build.ts --verify",
+    "build:dex:stubs": "bun run on-device/build.ts --stubs"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@yume-chan/adb": "^2.5.1",
+    "@yume-chan/adb-daemon-webusb": "^2.3.2",
+    "@yume-chan/adb-server-node-tcp": "^2.5.2",
+    "sharp": "^0.34.5",
+    "unzipit": "^1.4.3",
+    "usb": "^2.17.0"
+  },
+  "license": "MIT"
+}

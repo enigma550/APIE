@@ -1,0 +1,13 @@
+package android.graphics.drawable;
+
+import android.graphics.Canvas;
+
+public class ScaleDrawable extends Drawable {
+    public Drawable getDrawable() {
+        return null;
+    }
+
+    @Override
+    public void draw(Canvas canvas) {
+    }
+}
